@@ -9,6 +9,7 @@ Onde:
 E: 12
 N: 11
 P: 1
+
 Com isso, temos que a complexidade ciclomática do código é 3
 
 Identificamos os seguintes caminhos independentes no código:
