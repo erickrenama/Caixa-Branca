@@ -23,7 +23,7 @@ public class User {
 
     public boolean verificarUsuario(String login, String senha) {
         String sql = "";
-        Connection conn = conectarBD(); // Ponto 5: Chama conectarBancodeDados()
+        Connection conn = conectarBD(); // Ponto 5: Chama a classe conectarBD()
 
         // Ponto 6: query SQL
         sql += "SELECT nome FROM usuarios ";
