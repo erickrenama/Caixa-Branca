@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](GRAFO.png)
 
 Complexidade Ciclomática
 A complexidade ciclomática do código é calculada como 3, conforme a seguinte fórmula:
