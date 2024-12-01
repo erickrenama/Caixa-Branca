@@ -1,5 +1,6 @@
 
 Complexidade Ciclomática
+
 A complexidade ciclomática do código é calculada como 3, conforme a seguinte fórmula:
 
 [V(G) = E - N + 2P]
