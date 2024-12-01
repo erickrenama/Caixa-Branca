@@ -1,4 +1,3 @@
-![alt text](image.png)
 
 Complexidade Ciclomática
 A complexidade ciclomática do código é calculada como 3, conforme a seguinte fórmula:
@@ -10,6 +9,7 @@ Onde:
 E: 12
 N: 11
 P: 1
+
 Com isso, temos que a complexidade ciclomática do código é 3
 
 Identificamos os seguintes caminhos independentes no código:
