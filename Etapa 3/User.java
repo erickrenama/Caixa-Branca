@@ -15,7 +15,7 @@ public class User {
         } catch (Exception e) {
             // Ponto 3: Exceção de conexão
         }
-        return conn; // Ponto 4: Retorna (null ou válida)
+        return conn; // Ponto 4: Vai Retorna (null ou válida)
     }
 
     public String nome = "";
@@ -38,10 +38,10 @@ public class User {
             // Ponto 8: Verifica se a query retornou resultados
             if (rs.next()) {
                 result = true;
-                nome = rs.getString("nome"); // Ponto 9: Atualiza variáveis
+                nome = rs.getString("nome"); // Ponto 9: Atualiza as variáveis
             }
         } catch (Exception e) {
-            // Ponto 10: Tratamento de exceção
+            // Ponto 10: Parametro de exceção
         }
         return result; // Ponto 11: Retorna o resultado
     }
